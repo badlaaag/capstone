@@ -217,60 +217,73 @@
         @yield('content')
 
         <!-- footer -->
-        <footer class="footer-area" style="background-color:#531516;">
-            <div class="footer-top-area pt-70 pb-35 wrapper-padding-5">
-                <div class="container-fluid">
-                    <div class="widget-wrapper">
-                        <div class="footer-widget mb-30">
-                        <img height="60" style="transform:scale(1.5);object-fit: cover;" src="{{ asset('frontend/assets/img/logo/logo.png') }}" alt="">
-                            <div class="footer-about-2">
-                                <p>There are many variations of passages of Lorem Ipsum <br>the majority have suffered alteration in some form, by <br> injected humour</p>
-                                <p>Copyright © Tech-O-Matic 2023 . All Right Reserved.</p>
+        <footer class="footer-area pt-100 pb-70"style="background-color: #531516;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="copyright mb-30">
+                            <div class="footer-logo">
+                                <a href="/">
+                                    <img height="60" style="transform:scale(1.5);object-fit: cover;" 
+                                    src="{{ asset('frontend/assets/img/logo/logo.png') }}"
+                                     alt="">
+                                </a>
+                            </div>
+                            <p>© 2023 
+                            <a href="https://hasthemes.com" rel="noopener noreferrer" target="_blank">
+                            </a>.<br> All Rights Reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="footer-widget mb-30 ml-30">
+                            <div class="footer-title">
+                                <h3>ABOUT US</h3>
+                            </div>
+                            <div class="footer-list">
+                                <ul>
+                                    <li><a href="/about">Company Info</a></li>
+                                    <li><a href="/#/">Store location</a></li>
+                                    <li><a href="/contact">Contact</a></li>
+                                    <li><a href="/#/">Orders tracking</a></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="footer-widget mb-30">
-                            <h3 class="footer-widget-title-5">Contact Info</h3>
-                            <div class="footer-info-wrapper-3">
-                                <div class="footer-address-furniture">
-                                    <div class="footer-info-icon3">
-                                        <span>Address: </span>
-                                    </div>
-                                    <div class="footer-info-content3">
-                                        <p>66 Sipu road Rampura Banasree <br>USA- 10800</p>
-                                    </div>
-                                </div>
-                                <div class="footer-address-furniture">
-                                    <div class="footer-info-icon3">
-                                        <span>Phone: </span>
-                                    </div>
-                                    <div class="footer-info-content3">
-                                        <p>+8801 (33) 515609735 <br>+8801 (66) 223352333</p>
-                                    </div>
-                                </div>
-                                <div class="footer-address-furniture">
-                                    <div class="footer-info-icon3">
-                                        <span>E-mail: </span>
-                                    </div>
-                                    <div class="footer-info-content3">
-                                        <p><a href="#"> support@techomatic.com</a> <br><a href="#"> support@techomatic.com</a></p>
-                                    </div>
-                                </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <div class="footer-widget mb-30 ml-50">
+                            <div class="footer-title">
+                                <h3>USEFUL LINKS</h3>
+                            </div>
+                            <div class="footer-list">
+                                <ul>
+                                    <li><a href="/#/">Returns</a></li>
+                                    <li><a href="/#/">Support Policy</a></li>
+                                    <li><a href="/#/">Refund Policy</a></li>
+                                    <li><a href="/#/">FAQs</a></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="footer-widget mb-30">
-                            <h3 class="footer-widget-title-5">Newsletter</h3>
-                            <div class="footer-newsletter-2">
-                                <p>Send us your mail or next updates</p>
-                                <div id="mc_embed_signup" class="subscribe-form-5">
-                                    <form action="http://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                        <div id="mc_embed_signup_scroll" class="mc-form">
-                                            <input type="email" value="" name="EMAIL" class="email" placeholder="Enter mail address" required>
-                                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                            <div class="mc-news" aria-hidden="true"><input type="text" name="b_6bbb9b6f5827bd842d9640c82_05d85f18ef" tabindex="-1" value=""></div>
-                                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                                        </div>
-                                    </form>
-                                </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="footer-widget  ml-75">
+                            <div class="footer-title">
+                                <h3>FOLLOW US</h3>
+                            </div>
+                            <div class="footer-list">
+                                <ul>
+                                    <li><a href="//www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                                    <li><a href="//www.twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                                    <li><a href="//www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                                    <li><a href="//www.youtube.com" target="_blank" rel="noopener noreferrer">Youtube</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="footer-widget mb-30 ml-70">
+                            <div class="footer-title">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.6877769158345!2d121.13563731543258!3d14.73023597783421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397bb18144bf653%3A0x34e13592dd4050d0!2sRodriguez%20Hwy%2C%20Rodriguez%2C%20Rizal!5e0!3m2!1sen!2sph!4v1679020338140!5m2!1sen!2sph" width="600" height="200" class="border-0 w-100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
                             </div>
                         </div>
                     </div>
@@ -278,9 +291,6 @@
             </div>
         </footer>
 
-
-     
-       
         <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
         @livewireScripts
 		<!-- all js here -->

@@ -61,7 +61,7 @@
                 <div class="services-wrapper mt-40">
                     <div class="single-services mb-40">
                         <div class="services-img">
-                            <img src="{{ asset('frontend/assets/img/icon-img/26.png') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/icon-img/support-1.png') }}" alt="">
                         </div>
                         <div class="services-content">
                             <h4>Free Shippig</h4>
@@ -70,7 +70,7 @@
                     </div>
                     <div class="single-services mb-40">
                         <div class="services-img">
-                            <img src="{{ asset('frontend/assets/img/icon-img/27.png') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/icon-img/support-2.png') }}" alt="">
                         </div>
                         <div class="services-content">
                             <h4>24/7 Support</h4>
@@ -79,7 +79,7 @@
                     </div>
                     <div class="single-services mb-40">
                         <div class="services-img">
-                            <img src="{{ asset('frontend/assets/img/icon-img/28.png') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/icon-img/support-4.png') }}" alt="">
                         </div>
                         <div class="services-content">
                             <h4>Secure Payments</h4>
