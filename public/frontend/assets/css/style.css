@@ -1071,6 +1071,15 @@
     position: relative;
     z-index: 9;
 }
+.footer-title h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0 0 16px;
+    margin-bottom: 30px;
+}
+
 .footer-widget-title {
     color: #ffffff;
     font-size: 18px;
@@ -1078,45 +1087,27 @@
     margin-bottom: 40px;
     text-transform: uppercase;
 }
+.footer-list ul li {
+    margin: 0 0 11px;
+    color:white;
+}
+.footer-list a{
+    color: white;
+}
+.footer-list a:hover{
+    color: #ffe9c7;
+}
+
 .footer-widget-content li {
     margin-bottom: 20px;
 }
 .footer-widget-content li:last-child {
     margin-bottom: 0px;
 }
-.footer-widget-content li a {
-    color: #999999;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-.footer-widget-content li a:hover {
-    color: #fff;
-}
-.footer-newsletter > p {
-    color: #999999;
-    margin: 0;
-}
-.subscribe-form form {
-    position: relative;
-}
 
-
-.footer-contact > p {
-    color: #999999;
-    margin-bottom: 11px;
-}
-.footer-contact > p span i {
-    font-size: 20px;
-}
-.footer-contact > p span {
-    display: inline-block;
-    width: 33px;
-}
-.footer-contact > p:last-child {
-    margin-bottom: 0px;
-}
-.subscribe-form {
-    margin: 28px 0 40px;
+.copyright .footer-logo {
+    margin-bottom: 12px;
+    margin-top: 41px;
 }
 .copyright p {
     color: #fff;
@@ -1868,77 +1859,7 @@ a.banner-book-style-btn:hover {
     margin-top: 27px;
 }
 
-/* 3.10 Footer style of book */
 
-.footer-widget-title-2 {
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 35px;
-}
-.footer-info-icon {
-    width: 35px;
-    margin-top: 6px;
-}
-.footer-info-icon i {
-    font-size: 20px;
-    color: #999999;
-}
-.footer-address {
-    display: flex;
-    margin-bottom: 19px;
-}
-.footer-address:last-child {
-    margin-bottom: 0px;
-}
-.footer-info-content > p {
-    color: #999999;
-    line-height: 28px;
-    margin: 0;
-    font-size: 16px;
-}
-.footer-info-content > p a {
-    color: #999999;
-}
-.footer-info-content > p a:hover {
-    color: #f44344;
-}
-.footer-widget-content-2 ul li a {
-    color: #999999;
-    font-size: 16px;
-}
-.footer-widget-content-2 ul li a:hover {
-    color: #f44344;
-}
-.footer-widget-content-2 li {
-    margin-bottom: 16px;
-}
-.footer-widget-content-2 li:last-child {
-    margin-bottom: 0px;
-}
-#footer-map {
-    height: 220px;
-    width: 100%;
-}
-#footer-map-2 {
-    height: 220px;
-}
-.footer-map-width {
-    width: 318px;
-}
-.payment-img {
-    float: right;
-}
-.copyright-2 > p {
-    color: #666666;
-    margin: 2px 0 0;
-}
-.copyright-2 > p a {
-    color: #f44344;
-}
-.copyright-2 > p a:hover {
-    text-decoration: underline;
-}
 /*--------- 4. Electronics page ---------*/
 /* 4.1 Header style of electronics */
 
@@ -3201,122 +3122,7 @@ a.banner-book-style-btn:hover {
     width: 37px;
 }
 
-/* 4.8 Footer style of electronics */
 
-.footer-widget-title-3 {
-    color: #fafafa;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 35px;
-    padding-bottom: 14px;
-    position: relative;
-}
-.footer-widget-title-3::after {
-    background-color: #414141;
-    bottom: 0;
-    content: "";
-    height: 1px;
-    left: 0;
-    position: absolute;
-    width: 70px;
-}
-.footer-address-electro {
-    display: flex;
-    margin-bottom: 19px;
-}
-.footer-info-icon2 {
-    width: 68px;
-}
-.footer-info-icon2 span {
-    color: #aaaaaa;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.footer-info-content2 {
-    margin-left: 5px;
-}
-.footer-info-content2 > p {
-    color: #aaaaaa;
-    line-height: 25px;
-    margin: 0;
-}
-.footer-info-content2 > p a {
-    color: #aaaaaa;
-}
-
-.footer-info-content2 > p a:hover {
-    color: #fff;
-}
-.footer-widget-content-3 ul li {
-    margin-bottom: 22px;
-    position: relative;
-}
-.footer-widget-content-3 ul li:last-child {
-    margin-bottom: 0px;
-}
-.footer-widget-content-3 ul li:last-child {
-    margin-bottom: 0px;
-}
-.footer-widget-content-3 ul li::before {
-    border: 1px solid #696969;
-    border-radius: 50px;
-    content: "";
-    height: 7px;
-    left: 0;
-    position: absolute;
-    top: 8px;
-    width: 7px;
-}
-.footer-widget-content-3 ul li a {
-    color: #aaaaaa;
-    display: block;
-    letter-spacing: 1px;
-    padding-left: 24px;
-}
-.footer-services-content {
-    margin-left: 30px;
-}
-.footer-widget-content-3 ul li a:hover {
-    color: #fff;
-}
-.widget-right {
-    float: right;
-}
-.footer-services-wrapper {
-    display: flex;
-}
-.footer-services-icon i {
-    color: #eeeeee;
-    font-size: 36px;
-}
-.footer-services-content > h3 {
-    color: #aaaaaa;
-    font-size: 25px;
-    margin-bottom: 9px;
-}
-.footer-services-content > p {
-    color: #aaaaaa;
-    margin: 0;
-}
-.footer-menu li {
-    display: inline-block;
-    line-height: 1;
-    margin-right: 20px;
-}
-.footer-menu li a {
-    color: #7b7b7b;
-    font-size: 12px;
-    letter-spacing: 1px;
-}
-.footer-menu li a:hover {
-    color: #fff;
-}
-.footer-menu li:last-child {
-    margin-right: 0px;
-}
-.mrg-5 {
-    margin-top: 5px;
-}
 /*--------- 5. Electronic style 2 ----------*/
 /* 5.1 Header style of electronic 2 */
 
@@ -4095,146 +3901,23 @@ a.banner-book-style-btn:hover {
     width: 37px;
 }
 
-/* 6.8 Footer style of handicraft */
-
-.footer-about > p {
-    color: #666666;
-    font-size: 16px;
-    letter-spacing: 0.5px;
-    margin: 33px 0 22px;
-    padding-right: 40px;
-}
-.footer-about li {
-    display: inline-block;
-    margin-right: 15px;
-    transition: all 0.3s ease 0s;
-}
-.footer-about li:last-child {
-    margin-right: 0px;
-}
-.footer-about li a {
-    color: #666666;
-    font-size: 16px;
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    border-radius: 50px;
-    background-color: #f1f1f1;
-    line-height: 35px;
-    text-align: center;
-}
-.footer-about li a:hover {
-    color: #f1f1f1;
-    background-color: #666;
-}
-.footer-widget-title-4 {
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin-bottom: 30px;
-    padding-bottom: 12px;
-    position: relative;
-    text-transform: uppercase;
-}
-.footer-widget-title-4::before {
-    background-color: #000000;
-    bottom: 0;
-    content: "";
-    height: 2px;
-    left: 0;
-    position: absolute;
-    width: 50px;
-}
-.footer-widget-content-4 li {
-    margin-bottom: 7px;
-    position: relative;
-}
-.footer-widget-content-4 li:last-child {
-    margin-bottom: 0px;
-}
-.footer-widget-content-4 li a {
-    color: #666666;
-    display: block;
-    font-size: 16px;
-    transition: all 0.3s ease 0s;
-}
-.footer-widget-content-4 li::before {
-    background: url("../../assets/img/icon-img/25.png") no-repeat scroll left
-        0px center;
-    bottom: 0;
-    content: "";
-    height: 100%;
-    position: absolute;
-    right: 0;
-    transition-duration: 0.3s;
-    width: 100%;
-    z-index: -9;
-    opacity: 0;
-}
-.footer-widget-content-4 li:hover::before {
-    opacity: 1;
-}
-.footer-widget-content-4 li:hover a {
-    padding-left: 20px;
-    color: #333;
-}
-.footer-banner {
-    position: relative;
-}
-.footer-banner-content {
-    left: 0;
-    padding: 20px 35px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.footer-banner-content > h3 {
-    color: #ffff;
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 0.5px;
-    line-height: 28px;
-    margin-bottom: 8px;
-    text-transform: uppercase;
-}
-.footer-banner-content > a {
-    border-bottom: 2px solid #989898;
-    color: #ffff;
-    display: inline-block;
-    font-size: 14px;
-    line-height: 1;
-}
-.footer-banner-content > a:hover {
-    border-bottom: 2px solid #333;
-    color: #333;
-}
-.footer-banner > img {
-    width: 100%;
-}
-.copyright-handicraft > p {
-    color: #333333;
-    font-size: 13px;
-    letter-spacing: 1px;
-    line-height: 18px;
-    margin: 0;
-}
 
 /*--------- 7. Furniture page ---------*/
 /* 7.1 Header style of furniture */
 
-.icon-cart-furniture i {
+.icon-cart-1 i {
     color: #ffff;
     font-size: 35px;
 }
-a.icon-cart-furniture i :hover {
+a.icon-cart-1 i :hover {
     background-color:#ffe9c7;
 }
-a.icon-cart-furniture {
+a.icon-cart-1 {
     display: block;
     padding: 32px 0 32px 10px;
     position: relative;
 }
-a.icon-cart-furniture span {
+a.icon-cart-1 span {
     border-radius: 50px;
     color: #ffffff;
     display: inline-block;
@@ -4249,7 +3932,7 @@ a.icon-cart-furniture span {
     top: 38px;
     width: 25px;
 }
-a.icon-cart-furniture span.green {
+a.icon-cart-1 span.green {
     background-color: #060606;
 }
 .furniture-logo > a {
@@ -4279,6 +3962,7 @@ a.icon-cart-furniture span.green {
     font-weight: bold;
     color: #999999;
 }
+
 .furniture-login ul li::before {
     background-color: #999999;
     content: "";
@@ -4615,7 +4299,7 @@ a.icon-cart-furniture span.green {
     padding: 0 305px;
 }
 
-/* 7.3 Services style of furniture */
+
 
 .services-wrapper {
     display: flex;
@@ -4628,6 +4312,7 @@ a.icon-cart-furniture span.green {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 14px;
+    color: black;
 }
 .services-content > p {
     color: #666666;
@@ -4641,63 +4326,6 @@ a.icon-cart-furniture span.green {
     padding: 0 305px 0 150px;
 }
 
-/* 7.4 Footer style of furniture */
-
-.widget-wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-.footer-about-2 > p {
-    color: #ffff;
-    margin: 40px 0 0;
-}
-.footer-widget h3.footer-widget-title-5 {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 28px;
-}
-.footer-address-furniture {
-    display: flex;
-}
-.sidebar-search form > button:hover {
-    background-color: #050035;
-    color: #fff;
-}
-.sidebar-categories li a:hover,
-.product-size li a:hover {
-    color: #050035;
-}
-.footer-info-icon3 {
-    width: 80px;
-}
-.footer-info-icon3 > span {
-    color: #ffff;
-    font-size: 16px;
-    font-weight: bold;
-}
-.footer-info-content3 > p {
-    color: #ffff;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    margin: 0;
-}
-.footer-info-content3 > p a {
-    color: #ffff;
-}
-.footer-info-content3 > p a:hover {
-    color: #333;
-}
-.footer-address-furniture {
-    margin-bottom: 16px;
-}
-.footer-address-furniture:last-child {
-    margin-bottom: 0px;
-}
-.footer-newsletter-2 > p {
-    color: #ffff;
-    margin: 0;
-}
 .subscribe-form-5 form input {
     background: #f6f6f6 none repeat scroll 0 0;
     border: medium none;
@@ -4731,18 +4359,7 @@ a.icon-cart-furniture span.green {
 .subscribe-form-5 {
     margin-top: 19px;
 }
-.copyright-furniture > p {
-    color: #666666;
-    font-size: 14px;
-    letter-spacing: 0.5px;
-    margin: 0;
-}
-.copyright-furniture > p a {
-    color: #333;
-}
-.copyright-furniture > p a:hover {
-    text-decoration: underline;
-}
+
 /*-------- 8. Smart watch page ----------*/
 /* 8.1 Header style of smart watch */
 .header-sticky {
@@ -6067,100 +5684,7 @@ a.icon-cart-furniture.food-cart span {
     padding: 0 0 0 38px;
 }
 
-/* 10.9 Footer style of food */
 
-.food-about > p {
-    color: #fcfcfc;
-    letter-spacing: 1px;
-    margin: 20px 0 0;
-    padding-bottom: 18px;
-    position: relative;
-}
-.food-about-info > p {
-    color: #dadada;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    margin-bottom: 23px;
-}
-.food-about-info {
-    margin-top: 29px;
-}
-.food-address {
-    display: flex;
-    margin-bottom: 8px;
-}
-.food-info-icon {
-    margin-right: 10px;
-    margin-top: 6px;
-    width: 20px;
-}
-.food-info-icon i {
-    color: #dcdcdc;
-    font-size: 18px;
-}
-.food-info-content > p {
-    color: #f6f6f6;
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    margin: 0;
-}
-.food-info-content > p a {
-    line-height: 26px;
-    color: #f6f6f6;
-    font-family: "Open Sans", sans-serif;
-}
-.food-widget-content ul li {
-    margin-bottom: 28px;
-}
-.food-widget-content ul li:last-child {
-    margin-bottom: 0px;
-}
-.food-widget-content ul li a {
-    color: #dfdfdf;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
-}
-.food-info-content > p a:hover {
-    color: #ddd;
-}
-.food-widget-content ul li a:hover {
-    color: #aaa;
-}
-.food-widget-content ul li a img {
-    margin-right: 16px;
-}
-.footer-widget-title-6 {
-    color: #f6f6f6;
-    font-family: "Roboto Slab", serif;
-    font-size: 24px;
-    margin-bottom: 30px;
-    padding-bottom: 28px;
-    position: relative;
-}
-.footer-widget-title-6:before,
-.food-about > p:before {
-    width: 50px;
-    height: 2px;
-    content: "";
-    left: 0;
-    bottom: 0;
-    position: absolute;
-    background-color: #5c5c63;
-}
-.food-widget .food-widget-content a > img {
-    width: 100%;
-}
-.container > p {
-    color: #b3b3b3;
-    letter-spacing: 1px;
-    margin: 0;
-}
-.container > p a {
-    color: #b3b3b3;
-}
-.container > p a:hover {
-    text-decoration: underline;
-}
 /*---------- 11. Fashion style 2 ------------*/
 /* 11.1 Header style of fashion 2 */
 
@@ -9255,35 +8779,6 @@ a.bundle-btn {
     opacity: 1;
 }
 
-/* 23.12 Footer style of fruits */
-
-.fruits-footer .food-about-info > p {
-    color: #f6f6f6;
-    font-family: "Poppins", sans-serif;
-}
-.fruits-footer .food-info-content > p {
-    color: #f6f6f6;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-}
-.fruits-footer .footer-widget-title-6 {
-    font-family: "Poppins", sans-serif;
-    font-size: 24px;
-}
-.fruits-footer .food-widget-content ul li a {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-}
-.ptb-105 {
-    padding: 105px 0 80px;
-}
-.fruits-newsletter-title {
-    margin-top: 11px;
-}
-.subscribe-form-furits.f-right {
-    margin-top: 9px;
-}
 
 /* 24. Modal style */
 .modal-body {

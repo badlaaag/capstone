@@ -65,15 +65,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="header-top-furniture wrapper-padding-2 res-header-sm" style="background-color: #531516;">
+                <div class="wrapper-padding-2 res-header-sm" style="background-color: #531516;">
                     <div class="container-fluid">
                         <div class="header-bottom-wrapper">
-                            <div class="logo-2 furniture-logo ptb-30">
+                            <div class="logo-2 ptb-30">
                                 <a href="/">
                                     <img height="60" style="transform:scale(1.5);object-fit: cover;" src="{{ asset('frontend/assets/img/logo/logo.png') }}" alt="">
                                 </a>
                             </div>
-                            <div class="menu-style-2 furniture-menu menu-hover" >
+                            <div class="menu-style-2 " >
                                 <nav>
                                     <ul>
                                         <li>
@@ -96,7 +96,7 @@
                                 </nav>
                             </div>
                             <div class="header-cart">
-                                <a class="icon-cart-furniture" href="{{ route('cart.index') }}">
+                                <a class="icon-cart-1" href="{{ route('cart.index') }}">
                                     <i class="ti-shopping-cart"></i>
                                     <span class="shop-count-furniture green">{{ \Cart::getTotalQuantity() }}</span>
                                 </a>
@@ -166,7 +166,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="header-bottom-furniture wrapper-padding-2 border-top-3" style="border-bottom: 1px solid #e0e0e0;">
+                <div class="header-bottom wrapper-padding-2 border-top-3" style="border-bottom: 1px solid #e0e0e0;">
                     <div class="container-fluid">
                         <div class="furniture-bottom-wrapper">
                             <div class="furniture-login">
@@ -190,7 +190,7 @@
                             </div>
                             <div class="furniture-search">
                                 <form>
-                                    <input placeholder="I am Searching for . . ." type="text" name="q" autocomplete="off" id="search">
+                                    <input placeholder="Search. . ." type="text" name="q" autocomplete="off" id="search">
                                     <button disabled>
                                         <i class="ti-search"></i>
                                     </button>
@@ -265,7 +265,7 @@
                         </div>
                     </div>
                     <div class="col-lg-2 col-sm-6">
-                        <div class="footer-widget  ml-75">
+                        <div class="footer-widget mb-30 ml-50 ">
                             <div class="footer-title">
                                 <h3>FOLLOW US</h3>
                             </div>

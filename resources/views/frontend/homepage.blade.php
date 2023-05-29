@@ -55,7 +55,7 @@
         <div class="services-area wrapper-padding-4 gray-bg pt-120 pb-80">
             <div class="container-fluid">
                 <div class="section-title-furits text-center">
-                    <h2>Why Choose Us</h2>
+                    <h2></h2>
                 </div>
                 <br>
                 <div class="services-wrapper mt-40">
@@ -64,7 +64,7 @@
                             <img src="{{ asset('frontend/assets/img/icon-img/support-1.png') }}" alt="">
                         </div>
                         <div class="services-content">
-                            <h4>Free Shippig</h4>
+                            <h4>Free Shipping</h4>
                             <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
                         </div>
                     </div>
