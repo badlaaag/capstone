@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,6 +36,9 @@ Route::get('blog',function(){
     return view('frontend.blog.index');
 });
 
+Route::get('contact',function(){
+    return view('frontend.contact.index');
+});
 
 Route::resource('favorite', \App\Http\Controllers\FavoriteController::class)->only(['index','store','destroy']);
 Route::resource('cart', \App\Http\Controllers\CartController::class)->only(['index','store','update', 'destroy']);

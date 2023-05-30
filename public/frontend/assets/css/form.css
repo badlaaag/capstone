@@ -1,0 +1,119 @@
+.contact-info-wrap {
+    background-color: #f3f3f3;
+    padding: 120px 70px 116px 90px;
+}
+.custom-row-2 div[class^=col-] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.contact-form {
+    background-color: #f3f3f3;
+    padding: 50px 110px;
+}
+.contact-form .contact-title .h2, .contact-form .contact-title h2 {
+    color: #464646;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 36px;
+}
+.contact-info-wrap .single-contact-info {
+    align-items: center;
+    display: flex;
+    margin-bottom: 40px;
+    grid-gap:20px;
+}
+.contact-info-wrap .single-contact-info .contact-info-dec p {
+    color: #404040;
+    line-height: 1;
+    margin: 0 0 9px;
+    
+}
+p {
+    color: #333;
+    font-family: Poppins,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.contact-info-wrap .single-contact-info .contact-icon i {
+    border: 1px solid #252525;
+    border-radius: 100%;
+    color: #252525;
+    display: inline-block;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: all .3s ease 0s;
+    width: 40px;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.contact-social {
+    margin-top: 58px;
+}
+.contact-social .h3, .contact-social h3 {
+    color: #4d4d4d;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0 0 17px;
+}
+ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.contact-social ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.contact-form-style .row div[class^=col-] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.contact-form .contact-form-style input, .contact-form .contact-form-style textarea {
+    background: transparent;
+    border: 1px solid #c1c1c1;
+    color: #000;
+    height: 40px;
+    margin-bottom: 30px;
+    padding: 2px 14px;
+}
+.contact-form .contact-form-style textarea {
+    height: 175px;
+    margin-bottom: 0;
+    padding: 20px 14px;
+}
+.contact-form .contact-form-style button {
+    background-color: #404040;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: 38px;
+    padding: 15px 52px;
+    text-transform: uppercase;
+        
+}
+.contact-form .contact-form-style button:hover {
+    background-color: #531516;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+a, button, img, input, span {
+    transition: all .3s ease 0s;
+}
+.fa {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
