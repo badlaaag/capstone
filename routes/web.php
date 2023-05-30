@@ -31,6 +31,11 @@ Route::get('shop/{slug?}', [\App\Http\Controllers\ShopController::class, 'index'
 Route::get('shop/tag/{slug}', [\App\Http\Controllers\ShopController::class, 'tag'])->name('shop.tag');
 Route::get('product/{slug}', [\App\Http\Controllers\ProductController::class, 'show'])->name('product.show');
 
+Route::get('blog',function(){
+    return view('frontend.blog.index');
+});
+
+
 Route::resource('favorite', \App\Http\Controllers\FavoriteController::class)->only(['index','store','destroy']);
 Route::resource('cart', \App\Http\Controllers\CartController::class)->only(['index','store','update', 'destroy']);
 
@@ -48,7 +53,7 @@ Route::group(['middleware' => 'auth'], function() {
     Route::get('orders', [\App\Http\Controllers\OrderController::class, 'index'])->name('orders.index');
     Route::get('orders/{orderId}', [\App\Http\Controllers\OrderController::class, 'show'])->name('orders.show');
 
-    Route::group(['middleware' => 'isAdmin','prefix' => 'admin', 'as' => 'admin.'], function() {
+        Route::group(['middleware' => 'isAdmin','prefix' => 'admin', 'as' => 'admin.'], function() {
         Route::get('dashboard', [\App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard.index');
         Route::resource('permissions', \App\Http\Controllers\Admin\PermissionController::class);
         Route::resource('roles', \App\Http\Controllers\Admin\RoleController::class);
