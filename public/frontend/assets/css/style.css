@@ -8798,6 +8798,7 @@ a.bundle-btn {
     flex-wrap: wrap;
     margin: 0 0 20px;
     padding: 0 0 20px;
+    grid-gap: 20px;
 }
 .single-sidebar-blog .sidebar-blog-content span {
     color: #333;
@@ -8808,9 +8809,23 @@ a.bundle-btn {
     line-height: 1;
     text-transform: uppercase;
 }
-
-
-
+.single-sidebar-blog .sidebar-blog-content h4{
+    color: #000;
+    cursor: pointer;
+    line-height: inherit;
+    text-decoration: none
+}
+.sidebar-widget .sidebar-widget-tag ul li a, .sidebar-widget .sidebar-widget-tag ul li button {
+    background: none;
+    background-color: #f6f6f6;
+    border: none;
+    border-radius: 50px;
+    color: #424242;
+    display: inline-block;
+    line-height: 1;
+    padding: 9px 17px 12px;
+    text-transform: capitalize;
+}
 
 /* 24. Modal style */
 .modal-body {
