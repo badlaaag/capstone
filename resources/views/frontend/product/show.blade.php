@@ -76,7 +76,7 @@
                             </div>
                         </div>
                         <div class="details-price">
-                            <span>Rp.{{ number_format($product->price) }}</span>
+                            <span>₱.{{ number_format($product->price) }}</span>
                         </div>
                         <p>{!! $product->description !!}</p>
                             <form action="{{ route('cart.store') }}" method="post">
