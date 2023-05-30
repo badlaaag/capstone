@@ -82,7 +82,7 @@
                                         <li>
                                             <a href="{{ route('shop.index') }}">shop</a>
                                         </li>
-                                        <li><a href="#">Blogs</a>
+                                        <li><a href={{URL::to('/blog')}}>Blogs</a>
                                             <ul class="single-dropdown">
                                                 @foreach($categories_menu as $category_menu)
                                                     <li><a href="{{ route('shop.index', $category_menu->slug) }}">{{ $category_menu->name }}</a></li>
