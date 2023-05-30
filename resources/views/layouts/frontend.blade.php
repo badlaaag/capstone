@@ -22,6 +22,7 @@
         <link rel="stylesheet" href="{{ asset('frontend/assets/css/bundle.css') }}">
         <link rel="stylesheet" href="{{ asset('frontend/assets/css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('frontend/assets/css/responsive.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="{{ asset('frontend/assets/js/vendor/modernizr-2.8.3.min.js') }}"></script>
         
@@ -52,14 +53,14 @@
                             </div>
                             <div class="col-md-2">
                                 <div class="same-language-currency text-center text-white">
-                                    <p>Call Us 09430901821</p>
+                                    <p><i class="fa fa-phone" aria-hidden="true"></i> Call Us 09430901821</p>
                                 </div>
                             </div>
                             <div class="col-md-2"></div>
                             <div class="col-md-2"></div>
                             <div class="col-md-4">
                                 <div class="header-offer text-center text-white">
-                                    <p>Free delivery on order over <span style="color: bisque">$21.76</span></p>
+                                    <p><i class="fa fa-truck" aria-hidden="true"></i> Free delivery on order over <span style="color: bisque">$21.76</span></p>
                                 </div>
                             </div>
                         </div>
