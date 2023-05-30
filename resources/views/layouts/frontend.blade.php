@@ -90,7 +90,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#">contact us</a>
+                                            <a href={{URL::to('/contact')}}>contact us</a>
                                         </li>
                                     </ul>
                                 </nav>
