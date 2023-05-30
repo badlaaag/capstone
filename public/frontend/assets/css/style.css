@@ -8660,8 +8660,73 @@ a.bundle-btn {
     margin: 0 1px;
 }
 
-/* 23.10 Blog style of fruits */
-
+/*blog*/
+.blog-wrap-2 {
+    box-shadow: 0 3px 5px rgba(85,85,85,.2);
+    
+}
+.blog-wrap-2 .blog-content-2 {
+    padding: 25px 30px 34px;
+}
+.pro-pagination-style ul li button {
+    background: none;
+    border: none;
+    border-radius: 100%!important;
+    box-shadow: 0 0 12px 0.8px rgba(0,0,0,.1);
+    color: #862123!important;
+    display: inline-block;
+    font-size: 16px;
+    height: 43px;
+    line-height: 43px;
+    padding: 0;
+    text-align: center;
+    width: 43px;
+    cursor: pointer;
+}
+.blog-wrap-2 .blog-content-2 h4 a {
+    color: #333;
+}
+.blog-wrap-2 .blog-img-2 a img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    transition: all .5s ease 0s;
+    width: 100%;
+}
+.blog-wrap-2 .blog-img-2 {
+    overflow: hidden;
+    position: relative;
+}
+.blog-wrap-2 .blog-content-2 .blog-share-comment .blog-btn-2 a {
+    color: #333;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .2px;
+    margin-top: 4px;
+    text-transform: capitalize;
+}
+.blog-wrap-2 .blog-content-2 .blog-share-comment {
+    display: flex;
+    justify-content: space-between;
+    margin: 22px 0 0;
+}
+.blog-wrap-2 .blog-content-2 .blog-share-comment .blog-share .share-social ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+.blog-wrap-2 .blog-content-2 .blog-share-comment .blog-share span {
+    color: #333;
+    display: inline-block;
+    float: left;
+    font-size: 15px;
+    margin-right: 12px;
+    margin-top: 3px;
+    text-transform: capitalize;
+}
+.pro-pagination-style ul li {
+    display: inline-block;
+    margin: 0 4px;
+}
 .blog-meta-2 li {
     color: #8f8f8f;
     display: inline-block;
@@ -8710,75 +8775,41 @@ a.bundle-btn {
     background-color: #fff;
     box-shadow: 0 10px 20px rgba(2, 3, 3, 0.1);
 }
-
-/* 23.11 Newsletter style of fruits */
-
-.newsletter-wrapper {
-    padding: 0 77px;
-}
-.subscribe-form-furits .clear {
-    display: inline-block;
-    float: left;
-}
-.subscribe-form-furits input {
-    background: #fff none repeat scroll 0 0;
-    border: medium none;
-    border-radius: 50px;
-    box-shadow: 0 2px 15px 1.4px rgba(0, 0, 0, 0.15);
-    color: #79ad00;
-    display: inline-block;
-    float: left;
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    height: 55px;
-    letter-spacing: 1px;
-    line-height: 55px !important;
-    padding: 0 30px;
-    width: 450px;
-}
-.subscribe-form-furits .clear input.button {
-    background-color: #85bd02;
-    border: medium none;
-    box-shadow: none;
-    color: #ffffff;
-    float: left;
-    font-weight: 600;
-    height: 40px;
-    letter-spacing: 1px;
-    line-height: 30px;
-    margin-left: 40px;
-    padding: 0 40px;
-    text-transform: uppercase;
-    width: inherit;
-    font-family: "Open Sans", sans-serif;
-    font-weight: bold;
-    box-shadow: 0 0px 7px 0.9px rgba(0, 0, 0, 0.1);
-    height: 55px;
-    line-height: 55px !important;
-}
-.subscribe-form-furits .clear input.button:hover {
-    background-color: #333;
-}
-.fruits-newsletter-title > span {
-    color: #79ad00;
-    display: block;
-    font-size: 18px;
-    margin-bottom: 1px;
-}
-.fruits-newsletter-title > h3 {
-    color: #79ad00;
-    font-size: 30px;
-    font-weight: 600;
+.sidebar-widget h4.pro-sidebar-title {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
     margin: 0;
 }
-.subscribe-form-furits input::-moz-placeholder {
-    color: #79ad00;
-    opacity: 1;
+.sidebar-widget .sidebar-widget-tag ul li {
+    display: inline-block;
+    margin: 0 10px 15px 0;
 }
-.subscribe-form-furits input::-webkit-placeholder {
-    color: #79ad00;
-    opacity: 1;
+.sidebar-widget h4.pro-sidebar-title {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
 }
+.single-sidebar-blog {
+    align-items: center;
+    border-bottom: 1px solid #dee0e4;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+}
+.single-sidebar-blog .sidebar-blog-content span {
+    color: #333;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+
 
 
 /* 24. Modal style */

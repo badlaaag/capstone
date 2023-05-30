@@ -55,7 +55,7 @@
         <div class="services-area wrapper-padding-4 gray-bg pt-120 pb-80">
             <div class="container-fluid">
                 <div class="section-title-furits text-center">
-                    <h2></h2>
+                    <h2>CHOOSE US</h2>
                 </div>
                 <br>
                 <div class="services-wrapper mt-40">
