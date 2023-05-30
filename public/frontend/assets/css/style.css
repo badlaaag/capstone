@@ -4307,6 +4307,7 @@ a.icon-cart-1 span.green {
 }
 .single-services {
     display: flex;
+    width: 25%;
 }
 .services-content > h4 {
     font-size: 24px;
@@ -4317,7 +4318,7 @@ a.icon-cart-1 span.green {
 .services-content > p {
     color: #666666;
     margin: 0;
-    width: 77%;
+    
 }
 .services-content {
     padding: 10px 0 0 26px;

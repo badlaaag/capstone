@@ -72,7 +72,7 @@
                                         @endif
                                     </div>
                                 </span>
-                                <span>{{ $product->approved_reviews_count }} Ratting (S)</span>
+                                <span>{{ $product->approved_reviews_count }} Rating (S)</span>
                             </div>
                         </div>
                         <div class="details-price">
@@ -196,7 +196,7 @@
                                 </div>
                                 <div class="funiture-product-content text-center">
                                     <h4><a href="{{ route('product.show', $product->slug) }}">{{ $product->name }}</a></h4>
-                                    <span>Rp.{{ number_format($product->price) }}</span>
+                                    <span>.{{ number_format($product->price) }}</span>
                                 </div>
                             </div>
                         @endforeach

@@ -65,7 +65,7 @@
                         </div>
                         <div class="services-content">
                             <h4>Free Shipping</h4>
-                            <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
+                            <p>Free shipping on all order</p>
                         </div>
                     </div>
                     <div class="single-services mb-40">
@@ -74,15 +74,24 @@
                         </div>
                         <div class="services-content">
                             <h4>24/7 Support</h4>
+                            <p>Free shipping on all order</p>
+                        </div>
+                    </div>
+                    <div class="single-services mb-40">
+                        <div class="services-img">
+                            <img src="{{ asset('frontend/assets/img/icon-img/support-12.png') }}" alt="">
+                        </div>
+                        <div class="services-content">
+                            <h4>Secure Payments</h4>
                             <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
                         </div>
                     </div>
                     <div class="single-services mb-40">
                         <div class="services-img">
-                            <img src="{{ asset('frontend/assets/img/icon-img/support-4.png') }}" alt="">
+                            <img src="{{ asset('frontend/assets/img/icon-img/support-3.png') }}" alt="">
                         </div>
                         <div class="services-content">
-                            <h4>Secure Payments</h4>
+                            <h4>Money Return</h4>
                             <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
                         </div>
                     </div>
