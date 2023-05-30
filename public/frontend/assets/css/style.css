@@ -3944,11 +3944,11 @@ a.icon-cart-1 span.green {
 .menu-style-2.furniture-menu nav > ul > li > a {
     padding: 38px 0;
 }
-.furniture-bottom-wrapper {
+.ecommerce-bottom-wrapper {
     display: flex;
     justify-content: space-between;
 }
-.furniture-login ul li {
+.ecommerce-login ul li {
     color: #999999;
     display: inline-block;
     font-weight: 400;
@@ -3957,13 +3957,13 @@ a.icon-cart-1 span.green {
     position: relative;
 }
 
-.furniture-login ul li a {
+.ecommerce-login ul li a {
     text-transform: uppercase;
     font-weight: bold;
     color: #999999;
 }
 
-.furniture-login ul li::before {
+.ecommerce-login ul li::before {
     background-color: #999999;
     content: "";
     height: 14px;
@@ -3973,10 +3973,10 @@ a.icon-cart-1 span.green {
     top: 3px;
     width: 1px;
 }
-.furniture-login ul li:last-child::before {
+.ecommerce-login ul li:last-child::before {
     content: none;
 }
-.furniture-search form input {
+.ecommerce-search form input {
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
@@ -3996,19 +3996,19 @@ a.icon-cart-1 span.green {
     width: 630px;
 }
 .subscribe-form-4 form input::-moz-placeholder,
-.furniture-search form input::-moz-placeholder {
+.ecommerce-search form input::-moz-placeholder {
     color: #999;
     opacity: 1;
 }
 .subscribe-form-4 form input::-webkit-placeholder,
-.furniture-search form input::-webkit-placeholder {
+.ecommerce-search form input::-webkit-placeholder {
     color: #999;
     opacity: 1;
 }
-.furniture-search form {
+.ecommerce-search form {
     position: relative;
 }
-.furniture-search form button {
+.ecommerce-search form button {
     background: transparent none repeat scroll 0 0;
     border: medium none;
     color: #999999;
@@ -4019,35 +4019,35 @@ a.icon-cart-1 span.green {
     top: 13px;
     cursor: pointer;
 }
-.furniture-search form button:hover {
-    color: #050035;
+.ecommerce-search form button:hover {
+    color: #531516;
 }
-.furniture-wishlist li {
+.ecommerce-wishlist li {
     display: inline-block;
     margin-left: 39px;
 }
-.furniture-wishlist li a i {
+.ecommerce-wishlist li a i {
     color: #00245b;
     font-size: 18px;
     margin-right: 10px;
     position: relative;
     top: 3px;
 }
-.furniture-wishlist li a {
+.ecommerce-wishlist li a {
     color: #ffff;
     letter-spacing: 0.5px;
 }
-.furniture-wishlist li:first-child {
+.ecommerce-wishlist li:first-child {
     margin-left: 0px;
 }
-.furniture-login,
-.furniture-wishlist {
+.ecommerce-login,
+.ecommerce-wishlist {
     align-items: center;
     display: flex;
 }
-.furniture-login ul li a:hover,
-.furniture-wishlist li a:hover {
-    color: #00245b;
+.ecommerce-login ul li a:hover,
+.ecommerce-wishlist li a:hover {
+    color: #531516;
 }
 .slider-height-6 {
     min-height: 790px;

@@ -168,11 +168,11 @@
                 </div>
                 <div class="header-bottom wrapper-padding-2 border-top-3" style="border-bottom: 1px solid #e0e0e0;">
                     <div class="container-fluid">
-                        <div class="furniture-bottom-wrapper">
-                            <div class="furniture-login">
+                        <div class="ecommerce-bottom-wrapper">
+                            <div class="ecommerce-login">
                                 <ul>
                                     @guest
-                                        <li>Get Access: <a href="{{ route('login') }}">Login</a></li>
+                                        <li><a href="{{ route('login') }}">Login</a></li>
                                         <li><a href="{{ route('register') }}">Register</a></li>
                                     @else
                                         <li>Hello: <a href="{{ route('profile.index') }}">{{ auth()->user()->username }}</a></li>
@@ -188,7 +188,7 @@
                                     @endguest
                                 </ul>
                             </div>
-                            <div class="furniture-search">
+                            <div class="ecommerce-search">
                                 <form>
                                     <input placeholder="Search. . ." type="text" name="q" autocomplete="off" id="search">
                                     <button disabled>
@@ -196,7 +196,7 @@
                                     </button>
                                 </form>
                             </div>
-                            <div class="furniture-wishlist">
+                            <div class="ecommerce-wishlist">
                                 <ul>
                                     <li>
                                         <a href="{{ route('favorite.index') }}"><i class="ti-heart"></i> Favorites</a>
