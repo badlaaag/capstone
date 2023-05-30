@@ -3,15 +3,24 @@
 @section('content')
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<div class="breadcrumb-area pt-35 pb-35 bg-gray-3"><div class="container"><nav aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="/">Home</a></li><li class="breadcrumb-item active" aria-current="page">Blog</li></ol></nav></div></div>
-<div class="blog-area pt-100 pb-100">
+<div class="breadcrumb-area pt-5 pb-5 bg-gray-3">
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Blog</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<div class="blog-area pt-5 pb-5">
     <div class="container">
         <div class="row flex-row-reverse">
             <div class="col-lg-9">
-                <div class="ml-20">
+                <div class="ml-2">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="blog-wrap-2 mb-30">
+                            <div class="blog-wrap-2 mb-3">
                                 <div class="blog-img-2">
                                     <a href="/blog-details-standard">
                                         <img src="/frontend/assets/img/blog/blog-2.jpg" alt="">
@@ -45,7 +54,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="blog-wrap-2 mb-30">
+                            <div class="blog-wrap-2 mb-3">
                                 <div class="blog-img-2">
                                     <a href="/blog-details-standard">
                                         <img src="/frontend/assets/img/blog/blog-3.jpg" alt="">
@@ -81,7 +90,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="blog-wrap-2 mb-30">
+                            <div class="blog-wrap-2 mb-3">
                                 <div class="blog-img-2">
                                     <a href="/blog-details-standard">
                                         <img src="/frontend/assets/img/blog/blog-7.jpg" alt="">
@@ -117,7 +126,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="blog-wrap-2 mb-30">
+                            <div class="blog-wrap-2 mb-3">
                                 <div class="blog-img-2">
                                     <a href="/blog-details-standard">
                                         <img src="/frontend/assets/img/blog/blog-6.jpg" alt="">
@@ -153,7 +162,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="blog-wrap-2 mb-30">
+                            <div class="blog-wrap-2 mb-3">
                                 <div class="blog-img-2">
                                     <a href="/blog-details-standard">
                                         <img src="/frontend/assets/img/blog/blog-5.jpg" alt="">
@@ -189,7 +198,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="blog-wrap-2 mb-30">
+                            <div class="blog-wrap-2 mb-3">
                                 <div class="blog-img-2">
                                     <a href="/blog-details-standard">
                                         <img src="/frontend/assets/img/blog/blog-4.jpg" alt="">
@@ -229,7 +238,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pro-pagination-style text-center mt-20">
+                    <div class="pro-pagination-style text-center mt-2">
                         <ul>
                             <li><button class="prev"><i class="fa fa-angle-double-left"></i></button></li>
                             <li><button class="active">1</button></li><li><button>2</button></li>
@@ -243,7 +252,7 @@
                     
                 <div class="sidebar-widget">
                     <h4 class="pro-sidebar-title">Recent Blogs </h4>
-                    <div class="sidebar-project-wrap mt-30">
+                    <div class="sidebar-project-wrap mt-3">
                         <div class="single-sidebar-blog">
                             <div class="sidebar-blog-img">
                                 <a href="/blog-details-standard">
@@ -298,9 +307,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="sidebar-widget mt-50">
+                <div class="sidebar-widget mt-5">
                     <h4 class="pro-sidebar-title">Tag </h4>
-                    <div class="sidebar-widget-tag mt-25">
+                    <div class="sidebar-widget-tag mt-5">
                         <ul>
                             <li><a href="/blog-standard">Samsung</a></li>
                             <li><a href="/blog-standard">IPhone</a></li>
