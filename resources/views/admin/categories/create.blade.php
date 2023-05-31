@@ -28,7 +28,7 @@
                             </div>
                         </div>
                         <div class="col-3">
-                            <div class="form-group">
+                            {{-- <div class="form-group">
                                 <label for="category_id">Parent</label>
                                 <select name="category_id" id="category_id" class="form-control">
                                     <option value="">---</option>
@@ -41,7 +41,7 @@
                                     @endforelse
                                 </select>
                                 @error('parent_id')<span class="text-danger">{{ $message }}</span>@enderror
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
 
