@@ -51,7 +51,7 @@
                                     </div>
                                   </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 mt-3">
                                 <div class="same-language-currency text-center text-white">
                                     <p><i class="fa fa-phone" aria-hidden="true"></i> Call Us 09430901821</p>
                                 </div>
@@ -59,7 +59,7 @@
                             <div class="col-md-2"></div>
                             <div class="col-md-2"></div>
                             <div class="col-md-4">
-                                <div class="header-offer text-center text-white">
+                                <div class="header-offer text-center text-white mt-3">
                                     <p><i class="fa fa-truck" aria-hidden="true"></i> Free delivery on order over <span style="color: bisque">$21.76</span></p>
                                 </div>
                             </div>
