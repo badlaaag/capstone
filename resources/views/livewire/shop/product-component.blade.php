@@ -57,7 +57,7 @@
                             </div>
                             <div class="product-content">
                                 <h4><a href="{{ route('product.show', $product->slug) }}">{{ $product->name }}</a></h4>
-                                <span>Rp.{{ number_format($product->price) }}</span>
+                                <span>₱{{ number_format($product->price) }}</span>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                             <div class="product-content-list">
                                 <div class="product-list-info">
                                     <h4><a href="{{ route('product.show', $product->slug) }}">{{ $product->name }}</a></h4>
-                                    <span>Rp.{{ number_format($product->price) }}</span>
+                                    <span>₱{{ number_format($product->price) }}</span>
                                     <p>{!! $product->description !!}</p>
                                 </div>
                                 <div class="product-list-cart-wishlist">

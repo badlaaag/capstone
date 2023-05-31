@@ -1,6 +1,7 @@
 @extends('layouts.frontend')
 @section('title', $product->name)
 @section('content')
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <div class="product-details ptb-100 pb-90">
 
     @if(session()->has('message'))
@@ -76,7 +77,7 @@
                             </div>
                         </div>
                         <div class="details-price">
-                            <span>₱.{{ number_format($product->price) }}</span>
+                            <span>₱{{ number_format($product->price) }}</span>
                         </div>
                         <p>{!! $product->description !!}</p>
                             <form action="{{ route('cart.store') }}" method="post">

@@ -48,7 +48,7 @@
                             </td>
                             <td><a href="{{ route('admin.products.show', $product->id) }}">{{ $product->name }}</a></td>
                             <td>{{ $product->quantity }}</td>
-                            <td>Rp.{{ number_format($product->price) }}</td>
+                            <td>₱{{ number_format($product->price) }}</td>
                             <td>{{ $product->weight }} (gram)</td>
                             <td>
                                 <span class="badge badge-info">{{ $product->tags->pluck('name')->join(', ') }}</span>
