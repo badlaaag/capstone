@@ -2,6 +2,54 @@
 
 /* 2. index page */
 /* 2.1 Header sidebar */
+.same-language-currency {
+    position: relative;
+  }
+  
+  .lang-car-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  .same-language-currency:hover .lang-car-dropdown,
+  .lang-car-dropdown:hover {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .same-language-currency ul p{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: center;
+  }
+  
+  .same-language-currency li {
+    display: block;
+  }
+  
+  .same-language-currency button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .same-language-currency button:hover {
+    background-color: #f0f0f0;
+  }
+  
 .header-left-sidebar {
     float: left;
     height: 100vh;
@@ -4034,7 +4082,7 @@ a.icon-cart-1 span.green {
     top: 3px;
 }
 .ecommerce-wishlist li a {
-    color: #ffff;
+    color: black;
     letter-spacing: 0.5px;
 }
 .ecommerce-wishlist li:first-child {
@@ -5906,6 +5954,9 @@ a.icon-cart-furniture.food-cart span {
 }
 
 /*------- 12. Breadcrumb style -------------*/
+.breadcrumb{
+    justify-content: center;
+}
 .breadcrumb-content h2 {
     color: #fff;
     font-size: 40px;
@@ -6539,7 +6590,7 @@ h5.panel-title {
     display: block;
 }
 .sidebar-title {
-    color: #ffff;
+    color: black;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 30px;

@@ -40,16 +40,16 @@
                     <div class="container-fluid" style="background-color:#131921; border-bottom:1px solid white;">
                         <div class="row align-items-center">
                             <div class="col-md-2">
-                                <div class="same-language-currency use-style text-white mx-lg-4 py-lg-2 text-center" >
+                                <div class="same-language-currency use-style text-white mx-lg-4 py-lg-2 text-center">
                                     <span>USD <i class="fa fa-angle-down"></i></span>
                                     <div class="lang-car-dropdown">
-                                        <ul>
-                                            <li><button value="PHP">PHP</button></li>
-                                            <li><button value="EUR">EUR</button></li>
-                                            <li><button value="USD">USD</button></li>
-                                        </ul>
+                                      <ul>
+                                        <li><button value="PHP">PHP</button></li>
+                                        <li><button value="EUR">EUR</button></li>
+                                        <li><button value="USD">USD</button></li>
+                                      </ul>
                                     </div>
-                                </div>
+                                  </div>
                             </div>
                             <div class="col-md-2">
                                 <div class="same-language-currency text-center text-white">
