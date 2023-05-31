@@ -78,7 +78,7 @@
                                 <nav>
                                     <ul>
                                         <li>
-                                            <a href="/">home</a>
+                                            <a href={{URL::to('http://127.0.0.1:8000/')}}>home</a>
                                         </li>
                                         <li>
                                             <a href="{{ route('shop.index') }}">shop</a>

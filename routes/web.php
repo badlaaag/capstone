@@ -40,6 +40,11 @@ Route::get('contact',function(){
     return view('frontend.contact.index');
 });
 
+Route::get('frontend',function(){
+    return view('frontend.homepage');
+});
+
+
 Route::resource('favorite', \App\Http\Controllers\FavoriteController::class)->only(['index','store','destroy']);
 Route::resource('cart', \App\Http\Controllers\CartController::class)->only(['index','store','update', 'destroy']);
 
