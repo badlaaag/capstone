@@ -761,7 +761,7 @@
     transition: all 0.3s ease 0s;
 }
 .product-action a {
-    background-color: #ffff;
+    background-color: #531516;;
     border-radius: 100%;
     color: #f7f7f7;
     display: inline-block;
@@ -793,12 +793,12 @@
     width: 40px;
 }
 .product-content h4 {
-    color: #ffff;
+    color: black;
     font-size: 18px;
     margin-bottom: 6px;
 }
 .product-content > span {
-    color: #ffff;
+    color: black;
     font-size: 18px;
     font-weight: bold;
 }
@@ -3950,8 +3950,7 @@ a.banner-book-style-btn:hover {
 }
 
 
-/*--------- 7. Furniture page ---------*/
-/* 7.1 Header style of furniture */
+
 
 .icon-cart-1 i {
     color: #ffff;
@@ -6866,13 +6865,13 @@ h5.panel-title {
     margin-left: 30px;
 }
 .product-list-info > h4 {
-    color: #191919;
+    color: black;
     font-size: 20px;
     font-weight: 600;
     margin: 0;
 }
 .product-list-info > span {
-    color: #666;
+    color: black;
     display: block;
     font-size: 18px;
     font-weight: 600;
@@ -6889,7 +6888,12 @@ h5.panel-title {
     margin-top: 42px;
 }
 .product-list-cart {
+    color:black;
     margin-right: 20px;
+}
+.product-list-cart:hover {
+    color: white !important;;
+    
 }
 .list-btn-style {
     border: 1px solid #dcdcdc;
@@ -6904,6 +6908,8 @@ h5.panel-title {
 .list-btn-style.btn-hover::before,
 .list-btn-wishlist.btn-hover::before {
     border-radius: 50px;
+    background: #531516 none repeat scroll 0 0;
+    
 }
 .list-btn-wishlist {
     border: 1px solid #dcdcdc;
