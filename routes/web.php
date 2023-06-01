@@ -39,6 +39,29 @@ Route::get('blog',function(){
 Route::get('contact',function(){
     return view('frontend.contact.index');
 });
+Route::get('faqs',function(){
+    return view('frontend.faqs.index');
+});
+Route::get('refund',function(){
+    return view('frontend.refund.index');
+});
+Route::get('support',function(){
+    return view('frontend.support.index');
+});
+Route::get('returns',function(){
+    return view('frontend.returns.index');
+});
+Route::get('company',function(){
+    return view('frontend.company.index');
+});
+Route::get('order',function(){
+    return view('frontend.order.index');
+});
+Route::get('store',function(){
+    return view('frontend.store.index');
+});
+
+
 
 Route::get('frontend',function(){
     return view('frontend.homepage');

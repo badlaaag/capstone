@@ -242,10 +242,10 @@
                             </div>
                             <div class="footer-list">
                                 <ul>
-                                    <li><a href="/about">Company Info</a></li>
-                                    <li><a href="/#/">Store location</a></li>
+                                    <li><a href="/company">Company Info</a></li>
+                                    <li><a href="/store">Store location</a></li>
                                     <li><a href="/contact">Contact</a></li>
-                                    <li><a href="/#/">Orders tracking</a></li>
+                                    <li><a href="/order">Orders tracking</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -257,10 +257,10 @@
                             </div>
                             <div class="footer-list">
                                 <ul>
-                                    <li><a href="/#/">Returns</a></li>
-                                    <li><a href="/#/">Support Policy</a></li>
-                                    <li><a href="/#/">Refund Policy</a></li>
-                                    <li><a href="/#/">FAQs</a></li>
+                                    <li><a href="/returns">Returns</a></li>
+                                    <li><a href="/support">Support Policy</a></li>
+                                    <li><a href="/refund">Refund Policy</a></li>
+                                    <li><a href="/faqs">FAQs</a></li>
                                 </ul>
                             </div>
                         </div>
