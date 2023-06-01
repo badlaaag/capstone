@@ -17,7 +17,7 @@
         </nav>
     </div>
 </div>
-<div class="container" style="color: #531516;">
+<div class="container px-5 pb-3" style="color: #531516;"  >
   <p>
       We want you to be satisfied with your purchase. If you are not completely satisfied, you may request a refund within 30 days of receiving the product.
   </p>
@@ -39,9 +39,14 @@
   <p>
       If you have any further questions about our refund policy, please contact our customer support team.
   </p>
+  <div class="blog-img-2">
+    <a href="/refund">
+        <img src="/frontend/assets/img/refund-pic/ecommerce.jpg" style="width:100% height:200px" alt="">
+    </a>
+</div>
 </div>
 
-<div class="container">
+{{-- <div class="container">
   <p>
     To initiate a return, please follow these steps:
   </p>
@@ -65,7 +70,7 @@
   <p>
     If you have any questions or concerns regarding our refund policy, please don't hesitate to contact us.
   </p>
-</div>
+</div> --}}
 
 
 @endsection

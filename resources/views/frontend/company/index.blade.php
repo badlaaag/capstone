@@ -5,6 +5,11 @@
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
 <title>Company info</title>
  
 <div class="breadcrumb-area pt-5 pb-2 bg-gray-3">
@@ -116,5 +121,53 @@
 </div>
 </div>
 
+
+
+<div class="container">
+  <h2>Bootstrap Carousel</h2>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="image1.jpg" alt="Image 1">
+        <div class="carousel-caption">
+          <h3>Image 1</h3>
+          <p>Description for Image 1</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="image2.jpg" alt="Image 2">
+        <div class="carousel-caption">
+          <h3>Image 2</h3>
+          <p>Description for Image 2</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="image3.jpg" alt="Image 3">
+        <div class="carousel-caption">
+          <h3>Image 3</h3>
+          <p>Description for Image 3</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+</div>
 
 @endsection

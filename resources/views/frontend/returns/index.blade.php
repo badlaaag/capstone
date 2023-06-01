@@ -2,17 +2,10 @@
 @extends('layouts.frontend')
 @section('title', 'returns')
 @section('content')
+<link rel="stylesheet" href="{{ asset('frontend/assets/css/return.css') }}">
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <title>eCommerce Returns</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <style>
-    .container1 {
-      max-width: 500px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-  </style>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <div class="breadcrumb-area pt-5 pb-2 bg-gray-3">
     <div class="container">
         <nav aria-label="breadcrumb">
@@ -28,22 +21,19 @@
 
 <div class="container1">
     <h1>Returns</h1>
-
     <form id="returnForm">
       <div class="form-group">
-        <label for="orderNumber">Order Number</label>
-        <input type="text" class="form-control" id="orderNumber" required>
+        <input type="text" class="form-control" id="orderNumber" placeholder="Order Number*" required>
       </div>
 
       <div class="form-group">
-        <label for="reason">Reason for Return</label>
-        <textarea class="form-control" id="reason" rows="3" required></textarea>
+        <textarea class="form-control" placeholder="Reason for Return*" id="reason" rows="3" required></textarea>
       </div>
 
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="submit" >Submit</button>
     </form>
 
-    <div id="successMessage" class="alert alert-success mt-4" style="display: none;">
+    <div id="successMessage" class="alert alert-success mt-3" style="display: none;">
       Return request submitted successfully!
     </div>
   </div>

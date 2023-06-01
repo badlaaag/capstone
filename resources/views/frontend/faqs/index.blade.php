@@ -22,17 +22,17 @@
 </div>
 
 {{-- ============================================================================================= --}}
-<div class="container px-5">
+<div class="container px-5 pb-5">
   <div class="blog-img-2">
     <a href="/faqs">
-        <img src="/frontend/assets/img/faqs-pic/ecommercelive.jpg" alt="">
+        <img src="/frontend/assets/img/faqs-pic/ecommercelive.jpg" style="width:100% height:200px" alt="">
     </a>
 </div>
     <div class="accordion"  id="accordion">
       <div class="card">
         <div class="card-header" id="headingOne">
           <h2 class="mb-0">
-            <button class="btn btn-link" style="color: #531516;" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="btn collapsed" style="color: #531516;" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               Question 1: What payment methods do you accept?
             </button>
           </h2>
@@ -48,7 +48,7 @@
       <div class="card">
         <div class="card-header" id="headingTwo">
           <h2 class="mb-0">
-            <button class="btn btn-link collapsed"  style="color: #531516;" type="button"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <button class="btn collapsed"  style="color: #531516;" type="button"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               Question 2: What is your return policy?
             </button>
           </h2>
@@ -63,14 +63,14 @@
       <div class="card">
         <div class="card-header" id="headingThree">
           <h2 class="mb-0">
-            <button class="btn btn-link collapsed" style="color: #531516;" type="button"  data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <button class="btn  collapsed" style="color: #531516;" type="button"  data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
               Question 3: How can I place an order?
             </button>
           </h2>
         </div>
         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion3">
           <div class="card-body">
-            Answer: <p>To place an order, please follow these steps:</p>
+            Answer:<p>To place an order, please follow these steps:</p>
             <ol>
               <li>Visit our website and browse the products.</li>
               <li>Select the desired product and click on "Add to Cart".</li>
@@ -82,10 +82,10 @@
         </div>
       </div>
       {{-- ============================================================================================== --}}
-      <div class="card">
+      <div class="card pb-b">
         <div class="card-header" id="headingfour">
           <h2 class="mb-0">
-            <button class="btn btn-link collapsed" type="button" style="color: #531516;"   data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <button class="btn collapsed" type="button" style="color: #531516;"   data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
               Question 4: What is customer support in e-commerce?
             </button>
           </h2>
