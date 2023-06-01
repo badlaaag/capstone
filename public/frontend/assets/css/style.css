@@ -283,6 +283,11 @@
 .currency ul li:last-child::after,
 .header-login ul li:last-child::after {
     content: none;
+
+    /*login/reg*/
+}
+.card-header{
+color:black;
 }
 /* header right sidebar */
 .header-search-cart-login .logo {
@@ -3950,7 +3955,9 @@ a.banner-book-style-btn:hover {
 }
 
 
-
+.cart{
+    color:#000;
+}
 
 .icon-cart-1 i {
     color: #ffff;
@@ -6212,6 +6219,9 @@ thead {
 }
 .coupon2 {
     float: right;
+}
+.cart-page-total h2{
+    color:#555;
 }
 .cart-page-total span {
     float: right;
