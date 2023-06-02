@@ -177,6 +177,7 @@
                                         <li><a href="{{ route('register') }}">Register</a></li>
                                     @else
                                         <li>Hello: <a href="{{ route('profile.index') }}">{{ auth()->user()->username }}</a></li>
+                                        <li><a href="{{ route('login')}}">My Dashboard</a></li>
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
                                                         document.getElementById('logout-form').submit();">

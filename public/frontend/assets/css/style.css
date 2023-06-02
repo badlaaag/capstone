@@ -6578,6 +6578,11 @@ p.checkout-coupon input[type="submit"] {
     white-space: nowrap;
     width: inherit;
 }
+.mr-2{
+    color:#000;
+    display: flex;
+   
+}
 .mrg-nn {
     margin-bottom: 0;
 }
