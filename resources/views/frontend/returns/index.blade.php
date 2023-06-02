@@ -11,7 +11,7 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                    <a href="/">Home</a>
+                    <a href="/" style="color: #686868; text-decoration:none">Home</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">Returns</li>
             </ol>
@@ -19,8 +19,8 @@
     </div>
 </div>
 
-<div class="container1">
-    <h1>Returns</h1>
+<div class="container1 mb-5">
+    {{-- <h1 class="" style="color: #531516;">Returns</h1> --}}
     <form id="returnForm">
       <div class="form-group">
         <input type="text" class="form-control" id="orderNumber" placeholder="Order Number*" required>
@@ -33,7 +33,7 @@
       <button type="submit" class="submit" >Submit</button>
     </form>
 
-    <div id="successMessage" class="alert alert-success mt-3" style="display: none;">
+    <div id="successMessage" class="alert alert-success mt-3 pb-5" style="display: none;">
       Return request submitted successfully!
     </div>
   </div>

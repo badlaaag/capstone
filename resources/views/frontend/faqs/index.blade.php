@@ -8,12 +8,12 @@
 <title>FAQS</title>
 
 
-<div class="breadcrumb-area pt-5 pb-2 bg-gray-3" style="color: #531516;">
+<div class="breadcrumb-area pt-5 pb-2 bg-gray-3" style="color: #686868;">
     <div class="container">
-        <nav aria-label="breadcrumb" style="color: #531516;">
+        <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item" style="color: #531516;">
-                    <a href="/">Home</a>
+                <li class="breadcrumb-item">
+                    <a href="/" style="color: #686868; text-decoration:none"  >Home</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">FAQs</li>
             </ol>

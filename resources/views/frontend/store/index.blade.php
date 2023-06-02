@@ -9,7 +9,7 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                    <a href="/">Home</a>
+                    <a href="/" style="color: #686868; text-decoration:none">Home</a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">Store Location</li>
             </ol>
